@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Le but de cet exercice est de créer une API GraphQL avec Apollo Server, TypeGraphQL et TypeORM pour enregistrer et lire des pays avec leur code, leur nom et leur emoji.",
   "main": "index.js",
-"scripts": {
+  "scripts": {
     "start": "ts-node-dev --respawn --transpile-only src/index.ts",
     "test": "jest"
   },
@@ -33,7 +33,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.14",
+    "@types/jest": "^30.0.0",
     "@types/node": "^25.2.2",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
     "typescript": "^5.9.3"
   }
 }
